@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.navbar-left div {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar-left div:hover,
+.find-a-store:hover {
+    color: #c63663;
+}
+
+.navbar-left,
+.navbar-right {
+    display: flex;
+    align-items: center;
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+
+.navbar-left > *,
+.navbar-right > * {
+    margin: 10px;
+}
+
+.find-a-store {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.Inicia-sesión {
+    font-weight: 500;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+}
+
+.únete-ahora {
+    font-weight: 500;
+    border: 1px solid #c63663;
+    border-radius: 40px;
+    padding: 5px 20px 5px 20px;
+    background-color: #c63663;
+    color: white;
+}
+
+.únete-ahora:hover {
+    background-color: white;
+}
+
+.Inicia-sesión:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px rgba(220, 219, 219, 0.71);
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(192, 186, 186, 0.71);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(214, 211, 211, 0.71);
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.page img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.page {
+    display: flex;
+}
+
+.page-left,
+.page-right {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.page-title {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.page-container {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 40px 0px 40px 0px;
+    display: flex;
+}
+
+.page-button {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #3e342f;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.page-button-one {
+    color: #ffffff;
+    border-color: #c63663;
+    background-color: #c63663;
+}
+
+.page-button-two {
+    color: #ffffff;
+    border-color: #c63663;
+    background-color: #c63663;
+}
+
+
+.circle {
+    text-align: center;
+    color: antiquewhite;
+    background-color: #ff671f;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.page-description {
+    text-align: center;
+    padding: 30px 60px 30px 60px;
+    font-size: 18px;
+    font-family: ProximaNova, Montserrat, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer {
+    font-family: "SoDo Sans SemiBold", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    background-color: #ff671f;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+}
+.container3 {
+   
+    flex-direction: column;
+}
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30%; 
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.circle2 h2 {
+    margin: 0;
+}
+
+.circle2 p {
+    margin: 5px 0;
+}
+
+.circle2 span {
+    font-weight: bold;
+}
+
+.container2 div h3 {
+    font-weight: normal;
+    font-size: 18px
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.circle2 {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
